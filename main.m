@@ -9,9 +9,9 @@ TS = generateTS();
 
 
 %% Initialization Variables
-W1 = 0.5*ones(15,1);
-W2 = 0.5*ones(15,1);
-W3 = 0.5*ones(15,1);
+W1 = rand*ones(15,1);
+W2 = rand*ones(15,1);
+W3 = rand*ones(15,1);
 V = zeros(15,1);
 Y = zeros(15,1);
 %for i=1:6
@@ -28,7 +28,7 @@ Yout = 0;
 %% learing Process
 N=1000;%for 1000 times training the network
 
-for qd = 1:5000
+for qd = 1:499
     
     ee=0;
 for j=1:N
