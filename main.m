@@ -21,7 +21,7 @@ Bout = rand;
 %end
 
 
-n=0.01;
+n=0.0003;
 a=1;
 
 plot(0,0);
@@ -29,7 +29,7 @@ hold;
 
 %% learing Process
 N=1000; %for 1000 times training the network in an Epoch
-Epochs = 1000; %foe number of Epochs
+Epochs = 100; %foe number of Epochs
 for qd = 1:Epochs
     Yout = 0.5;
     ee=0;

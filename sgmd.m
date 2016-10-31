@@ -1,3 +1,3 @@
 function y = sgmd(a,x)
-    y = 1.5*tanh(a*x);
+    y = 10*tanh(a*x);
 end
