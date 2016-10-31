@@ -28,9 +28,9 @@ plot(0,0);
 hold;
 
 %% learing Process
-N=1000; %for 1000 times training the network in an Epoch
-Epochs = 1000; %foe number of Epochs
-for qd = 1:Epochs
+N=1000;%for 1000 times training the network
+NN = 1000; %foe number of Epo
+for qd = 1:1000
     Yout = 0.5;
     ee=0;
 for we=1:N
@@ -76,12 +76,11 @@ for we=1:N
 end
 
     plot(qd, ee/1000,'k.');
-    fprintf('%d of %d done..!!\n', qd, Epochs);
+    fprintf('%d of %d done..!!\n', qd);
 end
 W1
 W2
 W3
-
 
 yout =0;
 

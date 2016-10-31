@@ -1,5 +1,5 @@
 function TS = generateTS()
-
+y=0;
 priv = 0;
 TS = zeros(10000,3);
 
